@@ -56,7 +56,7 @@ Activate Environment (Windows):
  ```
 
 Activate Environment (Mac/Linux): 
-```bash source venv/bin/activate.
+```bash source venv/bin/activate
 ```
 
 Install Requirements:
