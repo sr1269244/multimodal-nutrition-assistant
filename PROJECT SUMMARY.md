@@ -6,12 +6,14 @@ Run the automated setup script via your terminal to instantly provision director
 
 ```bash
 python -m venv venv && source venv/bin/activate && pip install -r requirements.txt
+```
 
 Option B: Manual Setup
 Clone repository & enter workspace:
 
 ```bash
 cd food_analyzer_app
+```
 
 Create virtual environment:
 
@@ -23,11 +25,13 @@ Activate environment:
 Windows: venv\\Scripts\\activate
 
 macOS/Linux: source venv/bin/activate
+```
 
 Install dependencies:
 
 ```bash
 pip install -r requirements.txt
+```
 
 
 📂 Project Structure
@@ -185,6 +189,7 @@ Run the application server in your terminal:
 
 ```bash
 streamlit run app.py
+```
 
 '''
 

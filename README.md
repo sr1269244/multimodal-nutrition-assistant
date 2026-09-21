@@ -56,13 +56,16 @@ food_analyzer_app/
 *Dependencies Installation: Open terminal and run:
 ```bash
  pip install -r requirements.txt
+ ```
 
 *Environment Configuration: 
 ```bash
 Create a .env file in the root directory and add your API key:
+```
 
 ```bash
 GEMINI_API_KEY=your_actual_api_key_here
+```
 
 ---
 
@@ -70,6 +73,7 @@ GEMINI_API_KEY=your_actual_api_key_here
 *Execution Command: Execute the following command in your terminal:
 ```bash
 streamlit run app.py
+```
 
 ---
 
@@ -123,27 +127,32 @@ streamlit run app.py
    Verify that your `.env` file exists in the root directory and contains a valid, active API key.
    ```bash
    GEMINI_API_KEY=your_actual_api_key_here
+   ```
 
 *Accidentally Committed Secret Files
 If you accidentally tracked your .env file in Git, run the following command in your terminal to remove it from tracking without deleting it locally:
 ```bash
 git rm --cached .env
+```
 
 *Port Conflicts (Address already in use)
 If port 8501 is already occupied by another process, run Streamlit on an alternative port:
 ```bash
 streamlit run app.py --server.port 8502
+```
 
 *Package Version Mismatches
 If you encounter dependency conflicts or import errors, upgrade your pip installer and reinstall clean packages:
 ```bash
 pip install --upgrade pip
 pip install --force-reinstall -r requirements.txt
+```
 
 *Verbose Debug Logging
 Enable verbose logging in your terminal to inspect raw payload exceptions and real-time backend traces during execution:
 ```bash
 streamlit run app.py --logger.level=debug
+```
 
 ---
 

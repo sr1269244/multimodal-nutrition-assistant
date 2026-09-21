@@ -7,21 +7,25 @@
 Clone & Open Directory
    ```bash
    cd food_analyzer_app
+   ```
 
    Install Dependencies:
    ```bash
 pip install -r requirements.txt
+```
 
 Configure Environment: 
 Create a .env file and add your key:
 
 ```bash
 GEMINI_API_KEY=your_actual_api_key_here
+```
 
 Launch Application:
 
 ```bash
 streamlit run app.py
+```
 
 
 📊 Understanding Your Results
@@ -44,25 +48,31 @@ streamlit run app.py
 Create Virtual Environment:
  ```bash
   python -m venv venv.
+  ```
 
 Activate Environment (Windows): 
 ```bash
  venv\Scripts\activate.
+ ```
 
 Activate Environment (Mac/Linux): 
 ```bash source venv/bin/activate.
+```
 
 Install Requirements:
  ```bash
   pip install -r requirements.txt.
+  ```
 
 Run App on Default Port:
  ``bash
   streamlit run app.py.
+  ```
 
 Run App on Custom Port: 
 ```bash
  streamlit run app.py --server.port 8502.
+ ```
 
 
 🔍 Troubleshooting Quick Fixes
@@ -74,7 +84,9 @@ Run App on Custom Port:
 *Git Tracking .env File: If you accidentally committed your secret key, untrack it safely by running
 ```bash
  git rm --cached .env.
+ ```
 
 *Module Import Errors: If dependencies fall out of sync, fix it by reinstalling clean packages using 
 ```bash
 pip install --force-reinstall -r requirements.txt.
+```
