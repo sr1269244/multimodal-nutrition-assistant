@@ -44,6 +44,8 @@ food_analyzer_app/
 ├── app.py               # Primary Streamlit web application interface
 └── AI_model.py          # Core Gemini multimodal processing logic
 
+
+
 💻 Technology Stack
 Frontend & UI: Streamlit (app.py) for reactive widgets, state handling, and layout rendering.
 
@@ -51,12 +53,15 @@ Backend Intelligence: Google Generative AI SDK (AI_model.py) interfacing with ge
 
 Data Parsing: Native Python dictionaries, regex extraction, and JSON schema validation.
 
+
+
 ✨ Key Features
 Multimodal Vision Ingestion: Supports .jpg, .jpeg, and .png image uploads.
 
 Adaptive Fitness Goals: Custom target calculations for weight gain, fat loss, muscle building, and maintenance.
 
 Instant Macro Estimation: Real-time breakdown of calories, proteins, carbohydrates, and fats.
+
 
 
 📊 Example Output
@@ -95,10 +100,13 @@ JSON
 }
 
 
+
 🔍 Code Highlights
 Session State Management: Leveraging st.session_state to retain chat and analysis history.
 
 Error Boundary Wrapping: Robust try/except blocks handling API rate limits and invalid image formats gracefully.
+
+
 
 🎓 Use Cases
 
@@ -111,6 +119,7 @@ For Educators
 Classroom Demonstrations: Ideal for teaching generative AI, computer vision principles, and secure environment variable management.
 
 
+
 🔮 Future Enhancements
 Database Persistence: SQLite / PostgreSQL integration for long-term user dietary tracking.
 
@@ -118,10 +127,13 @@ Visual Dashboards: Plotly-based interactive charts for weekly macronutrient aggr
 
 Localization: Multi-language support for global culinary descriptions.
 
+
+
 📖 Documentation Guide
 Refer to README.md for quick repository setup.
 
 Review code docstrings within AI_model.py for function-level parameter guidelines.
+
 
 
 ✅ Pre-Flight Checklist
@@ -134,13 +146,18 @@ Review code docstrings within AI_model.py for function-level parameter guideline
 [ ] .env file created with valid GEMINI_API_KEY
 
 
+
 💡 Technical Highlights
 Low-latency inference via asynchronous payload handling.
 
 Zero external CSS dependencies, relying on Streamlit's native responsive layout engine.
 
+
+
 🎛️ Customization & Tuning
 Modify prompt instructions inside AI_model.py to enforce strict JSON output schemas or alter dietary tone.
+
+
 
 🛡️ What Makes This Production Ready
 Strict environment isolation protects API secrets from exposure.
@@ -148,10 +165,12 @@ Strict environment isolation protects API secrets from exposure.
 Modular architecture allows independent scaling of frontend UI and backend inference models.
 
 
+
 📞 Support & Troubleshooting
 Missing API Key: Check .env configuration.
 
 Port Conflict: Run with alternative port flag: --server.port 8502.
+
 
 
 📈 Project Stats
@@ -162,10 +181,12 @@ Dependencies: Minimal core requirements (streamlit, google-genai, python-dotenv)
 Execution Latency: < 2 seconds per inference pass
 
 
+
 🧠 Learning Outcomes
 Mastery of multimodal prompt engineering.
 
 Proficiency in building reactive web applications using pure Python.
+
 
 
 ➡️ Next Steps
@@ -178,7 +199,9 @@ Integrate user authentication layers for multi-tenant tracking.
 License: MIT License.
 
 
+
 Acknowledgements: Powered by Google Generative AI and built with Streamlit.
+
 
 
 🏁 Project Final Notes & Launch
